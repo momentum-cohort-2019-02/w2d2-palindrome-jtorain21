@@ -5,13 +5,17 @@ new_sentence = re.sub(r'[^A-Za-z]', "", user_input)
 
 print("You entered:", user_input)
 
+
 def backwards(reverse):
     """
     This gives you the word spelled in reverse
     """
     print("The word backwards is:", (user_input)[::-1])
     return (user_input)[::-1]
+
+
 backwards((user_input)[::-1])
+
 
 def palindrome(p):
     """
@@ -23,4 +27,6 @@ def palindrome(p):
     else:
         print("This word is not a palindrome")
     return user_input == backwards
+
+
 palindrome (user_input == backwards)
